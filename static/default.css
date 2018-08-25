@@ -1,0 +1,196 @@
+/*
+Template name: Light
+Template URI: http://templates.arcsin.se/light-website-template/
+Release date: 2006-08-20
+Last updated: 2009-08-06
+Description: Bright and smooth.
+Author: Viktor Persson
+Author URI: http://arcsin.se/
+
+This template is licensed under a Creative Commons Attribution 2.5 License:
+http://templates.arcsin.se/license/
+*/
+
+/* reset */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, textarea, input, select {margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline;}
+table {border-collapse: collapse; border-spacing: 0;}
+caption, th, td {text-align: left; font-weight: normal;}
+table, td, th tr {vertical-align: middle;}
+blockquote:before, blockquote:after, q:before, q:after {content: "";}
+blockquote, q {quotes: "" "";}
+a img {border: none;}
+:focus {outline: 0;}
+
+
+/* standard elements */
+a {
+	color: #567;
+}
+a:hover {
+	color: #28E;
+}
+
+body {
+	#background: #F2F2F2 url(img/bg.gif) repeat-y center top;
+  background-color: black;
+	color: #555A60;
+	font: normal 62.5% monospace,sans-serif;
+	margin: 0;
+}
+#publication {
+  font-size: 2.5em;
+}
+p,cite,code,ul,li {
+	font-size: 1.8em;
+	padding-bottom: 1.2em;
+}
+h1 {
+	font-size: 2.0em;
+	margin-bottom: 4px;
+}
+
+h2 {
+	font-size: 2.0em;
+	margin-bottom: 4px;
+	font-weight: bold
+}
+
+li {
+	#list-style: url(img/li.gif);
+	margin-left: 18px;
+	#font-size: 1.8em;
+	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
+}
+code {
+	background: url(img/bgcode.gif);
+	border: 1px solid #F6F6F6;
+	color: #666;
+	display: block;
+	font: normal 1.1em "Lucida Sans Unicode",serif;
+	margin-bottom: 12px;
+	padding: 8px 10px;
+	white-space: pre;
+}
+cite {
+	#background: url(img/quote.gif) no-repeat;
+	color: #456;
+	display: block;
+	font: normal 1.4em "Lucida Sans Unicode",serif;
+	padding-left: 28px;
+}
+h1,h2,h3 {
+	color: #666;
+	padding-top: 6px;
+}
+
+/* floats */
+.left,.alignleft {float: left;}
+.right,.alignright {float: right;}
+
+.clear,.clearer {clear: both;}
+.clearer {
+	display: block;
+	font-size: 0;
+	line-height: 1px;
+	height: 0;
+	border-bottom:3px solid #3f4246;
+}
+
+/* structure */
+.container {
+	margin: 0 auto;
+	width: 950px;
+}
+
+/* title */
+.title {
+	float: left;
+	margin-top: -20px;
+	text-align: center;
+	width: 375px;
+}
+.title h1 {
+	font: normal 4.0em monospace,sans-serif;
+}
+.title h2 {
+	color: #999;
+	font: normal 1.4em monospace,sans-serif;
+}
+
+.pub-list {
+	font-size: 0.9em;
+	padding-top: 2%;
+}
+
+.pub-title {
+	text-decoration: underline;
+}
+/* navigation */
+.navigation {
+	#background: url(img/holder.jpg) no-repeat;
+	height: 70px;
+	padding: 32px 16px 0px 16px;
+}
+.navigation a {
+	#border-left: px solid #DDD;
+	#border-right: 0px solid #FFF;
+	color: #666;
+	float: top;
+	font: bold 1.8em monospace,sans-serif;
+	margin-top: 9px;
+	padding: 32px 18px 0px;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a.active {
+	color: lightgrey;
+}
+.navigation a:hover {
+	#background: #FFF url(img/navhover.gif) repeat-x;
+	color: #B8B8B8;
+	padding: 32px 18px;
+}
+
+/* bibliography */
+
+
+.bibliography{
+	#background: url(img/bgholder.jpg) repeat-y;
+	padding: 20px
+	}
+
+.bibliography p,li,ul{
+	font-size: 1.5em
+	}
+/* holders */
+.holder_left{
+	#background: url(img/bgholder.jpg) repeat-y;
+	padding: 20px 32px;
+	width: 40%;
+	text-align: justify;
+	float:left
+}
+
+.holder_right{
+	#background: url(img/bgholder.jpg) repeat-y;
+	/*margin-left: 50%;*/
+	padding: 10px
+}
+
+
+.holder_top,.footer {
+	clear: both;
+	#background: url(img/holder.jpg) no-repeat;
+	height: 0px;
+}
+
+/* footer */
+.footer {
+	background-position: left bottom;
+	color: #666;
+	font-size: 1.1em;
+	text-align: center;
+	padding: 0 32px;
+}
+.footer .right, .footer .right a {color: #AAA;}
+.footer .right a:hover {color: #666;}
